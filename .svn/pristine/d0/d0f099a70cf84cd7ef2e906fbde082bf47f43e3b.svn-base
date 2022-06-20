@@ -1,0 +1,133 @@
+annotation.processing.enabled=true
+annotation.processing.enabled.in.editor=false
+annotation.processing.processors.list=
+annotation.processing.run.all.processors=true
+application.title=CronJobApplication
+application.vendor=indika.kuruppu
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.tab-size=8
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.text-limit-width=80
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.usedProfile=default
+build.classes.dir=${build.dir}/classes
+build.classes.excludes=**/*.java,**/*.form
+# This directory is removed when the project is cleaned:
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.generated.sources.dir=${build.dir}/generated-sources
+# Only compile against the classpath explicitly listed here:
+build.sysclasspath=ignore
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+# Uncomment to specify the preferred debugger connection transport:
+#debug.transport=dt_socket
+debug.classpath=\
+    ${run.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+# This directory is removed when the project is cleaned:
+dist.dir=dist
+dist.jar=${dist.dir}/CronJobApplication.jar
+dist.javadoc.dir=${dist.dir}/javadoc
+endorsed.classpath=
+excludes=
+file.reference.comm.jar=CronJars/comm.jar
+file.reference.commons-beanutils-1.7.jar=CronJars/commons-beanutils-1.7.jar
+file.reference.commons-collections-2.1.jar=CronJars/commons-collections-2.1.jar
+file.reference.commons-digester-1.7.jar=CronJars/commons-digester-1.7.jar
+file.reference.commons-logging-1.0.2.jar=CronJars/commons-logging-1.0.2.jar
+file.reference.commons-net-3.1.jar=CronJars/commons-net-3.1.jar
+file.reference.dblogin.jar=CronJars/dblogin.jar
+file.reference.groovy-all-1.0.jar=CronJars/groovy-all-1.0.jar
+file.reference.icons.jar=CronJars/icons.jar
+file.reference.iReport.jar=CronJars/iReport.jar
+file.reference.itext-2.1.4.jar=CronJars/itext-2.1.4.jar
+file.reference.jasperreports-3.0.1.jar=CronJars/jasperreports-3.0.1.jar
+file.reference.java.comm.jar=CronJars/java.comm.jar
+file.reference.javacomm.jar=CronJars/javacomm.jar
+file.reference.javadbf-0.4.0.jar=CronJars/javadbf-0.4.0.jar
+file.reference.json-simple-1.1.1.jar=CronJars/json-simple-1.1.1.jar
+file.reference.json_simple-1.1.jar=CronJars/json_simple-1.1.jar
+file.reference.jxl.jar=CronJars/jxl.jar
+file.reference.mail.jar=CronJars/mail.jar
+file.reference.mysql-connector-java-3.0.16-ga-bin.jar=CronJars/mysql-connector-java-3.0.16-ga-bin.jar
+file.reference.ojdbc14.jar=CronJars/ojdbc14.jar
+file.reference.poi-2.5.1-final-20040804.jar=CronJars/poi-2.5.1-final-20040804.jar
+file.reference.pop3.jar=CronJars/pop3.jar
+file.reference.reports.jar=CronJars/reports.jar
+file.reference.reports_mobile.jar=CronJars/reports_mobile.jar
+file.reference.smtp.jar=CronJars/smtp.jar
+file.reference.swing-layout-1.0.1.jar=CronJars/swing-layout-1.0.1.jar
+file.reference.swinglabs-0.8.0.jar=CronJars/swinglabs-0.8.0.jar
+file.reference.tools.jar=CronJars/tools.jar
+includes=**
+jar.compress=false
+javac.classpath=\
+    ${file.reference.comm.jar}:\
+    ${file.reference.commons-beanutils-1.7.jar}:\
+    ${file.reference.commons-collections-2.1.jar}:\
+    ${file.reference.commons-digester-1.7.jar}:\
+    ${file.reference.commons-logging-1.0.2.jar}:\
+    ${file.reference.commons-net-3.1.jar}:\
+    ${file.reference.dblogin.jar}:\
+    ${file.reference.groovy-all-1.0.jar}:\
+    ${file.reference.icons.jar}:\
+    ${file.reference.iReport.jar}:\
+    ${file.reference.itext-2.1.4.jar}:\
+    ${file.reference.jasperreports-3.0.1.jar}:\
+    ${file.reference.java.comm.jar}:\
+    ${file.reference.javacomm.jar}:\
+    ${file.reference.javadbf-0.4.0.jar}:\
+    ${file.reference.jxl.jar}:\
+    ${file.reference.mail.jar}:\
+    ${file.reference.mysql-connector-java-3.0.16-ga-bin.jar}:\
+    ${file.reference.ojdbc14.jar}:\
+    ${file.reference.poi-2.5.1-final-20040804.jar}:\
+    ${file.reference.pop3.jar}:\
+    ${file.reference.reports.jar}:\
+    ${file.reference.reports_mobile.jar}:\
+    ${file.reference.smtp.jar}:\
+    ${file.reference.swing-layout-1.0.1.jar}:\
+    ${file.reference.swinglabs-0.8.0.jar}:\
+    ${file.reference.tools.jar}:\
+    ${file.reference.json-simple-1.1.1.jar}:\
+    ${file.reference.json_simple-1.1.jar}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.deprecation=false
+javac.external.vm=false
+javac.processorpath=\
+    ${javac.classpath}
+javac.source=1.7
+javac.target=1.7
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}:\
+    ${libs.junit.classpath}:\
+    ${libs.junit_4.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+main.class=cronjobapplication.Main
+manifest.file=manifest.mf
+meta.inf.dir=${src.dir}/META-INF
+mkdist.disabled=false
+platform.active=default_platform
+run.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}
+# Space-separated list of JVM arguments used when running the project
+# (you may also define separate properties like run-sys-prop.name=value instead of -Dname=value
+# or test-sys-prop.name=value to set system properties for unit tests):
+run.jvmargs=
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+source.encoding=UTF-8
+src.dir=src
